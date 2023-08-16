@@ -5,7 +5,14 @@ function ajustaTamanhoPalcoJogo() {
     altura = innerHeight
     largura = innerWidth
 
-    console.log(altura, largura)
+    // console.log(altura, largura)
 }
 
 ajustaTamanhoPalcoJogo()
+
+function posicaoRandomica() {
+
+    var posicaoX = Math.floor(Math.random() * largura)
+    var posicaoY = Math.ceil(Math.random() * altura)
+}
+
