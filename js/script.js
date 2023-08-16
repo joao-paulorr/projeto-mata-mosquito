@@ -7,3 +7,5 @@ function ajustaTamanhoPalcoJogo() {
 
     console.log(altura, largura)
 }
+
+ajustaTamanhoPalcoJogo()
