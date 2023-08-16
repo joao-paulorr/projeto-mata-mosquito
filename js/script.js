@@ -18,7 +18,8 @@ function posicaoRandomica() {
 
     // Criar o elemento mosquito
     var mosquito = document.createElement('img')
-    mosquito.src = ''
+    mosquito.src = '../img.mosca.png'
+    mosquito.className = 'mosquito1'
 
 
 }
