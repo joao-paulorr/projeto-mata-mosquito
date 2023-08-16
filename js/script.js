@@ -16,7 +16,9 @@ function posicaoRandomica() {
     var posicaoX = Math.floor(Math.random() * largura)
     var posicaoY = Math.ceil(Math.random() * altura)
 
-    console.log(posicaoX, posicaoY)
+    // Criar o elemento mosquito
+    
+
 }
 
 posicaoRandomica()
