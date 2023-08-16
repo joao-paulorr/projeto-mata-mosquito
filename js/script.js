@@ -46,3 +46,7 @@ function tamanhoAleatorio() {
             return 'mosquito3'
     }
 }
+
+function ladoAleatorio() {
+    var 
+}
