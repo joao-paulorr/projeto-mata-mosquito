@@ -17,7 +17,9 @@ function posicaoRandomica() {
     var posicaoY = Math.ceil(Math.random() * altura)
 
     // Criar o elemento mosquito
-    
+    var mosquito = document.createElement('img')
+    mosquito.src = ''
+
 
 }
 
