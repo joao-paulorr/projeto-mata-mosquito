@@ -32,11 +32,14 @@ function posicaoRandomica() {
 
 }
 
-posicaoRandomica()
+// posicaoRandomica()
+
+// vai fazer algo automaticamente a cada periodo de tempo determinado
+setInterval(function())
 
 function tamanhoAleatorio() {
     var classe = Math.floor(Math.random() * 3)
-    
+
     switch (classe) {
         case 0:
             return 'mosquito1'
