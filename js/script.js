@@ -20,7 +20,7 @@ function posicaoRandomica() {
     if (vidas > 3) {
         alert('Interromper o jogo')
     } else {
-        document.querySelector('v' + vidas).src = 'img/coracao_vazio.png'
+        document.querySelector('#v' + vidas).src = 'img/coracao_vazio.png'
         vidas++
     }
 
@@ -40,12 +40,11 @@ function posicaoRandomica() {
     mosquito.style.top = posicaoY + 'px'
     mosquito.style.position = 'absolute'
     mosquito.id = 'mosquito'
+    mosquito.onclick = function(){this.remove()}
 
     document.body.appendChild(mosquito)
 
 }
-
-// posicaoRandomica()
 
 // vai fazer algo automaticamente a cada periodo de tempo determinado
 setInterval(function () {
