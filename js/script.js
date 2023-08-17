@@ -6,15 +6,14 @@ function ajustaTamanhoPalcoJogo() {
     altura = innerHeight
     largura = innerWidth
 
-    // console.log(altura, largura)
 }
 
 ajustaTamanhoPalcoJogo()
 
 function posicaoRandomica() {
     // remover mosquito anterior, caso exista
-    if (document.getElementById('mosquito')) {
-        document.getElementById('mosquito').remove
+    if (document.querySelector('#mosquito')) {
+        document.querySelector('#mosquito').remove()
     }
 
     var posicaoX = Math.floor(Math.random() * largura) - 90
