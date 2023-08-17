@@ -49,7 +49,7 @@ function posicaoRandomica() {
 // vai fazer algo automaticamente a cada periodo de tempo determinado
 setInterval(function () {
     posicaoRandomica()
-}, 1000)
+}, 3000)
 
 function tamanhoAleatorio() {
     var classe = Math.floor(Math.random() * 3)
