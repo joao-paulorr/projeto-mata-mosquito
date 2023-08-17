@@ -23,7 +23,7 @@ function posicaoRandomica() {
     // Criar o elemento mosquito
     var mosquito = document.createElement('img')
     mosquito.src = 'img/mosca.png'
-    mosquito.className = tamanhoAleatorio() + '' + ladoAleatorio()
+    mosquito.className = tamanhoAleatorio() + ' ' + ladoAleatorio()
     mosquito.style.left = posicaoX + 'px'
     mosquito.style.top = posicaoY + 'px'
     mosquito.style.position = 'absolute'
@@ -35,7 +35,9 @@ function posicaoRandomica() {
 // posicaoRandomica()
 
 // vai fazer algo automaticamente a cada periodo de tempo determinado
-setInterval(function())
+setInterval(function () {
+    posicaoRandomica()
+}, 1000)
 
 function tamanhoAleatorio() {
     var classe = Math.floor(Math.random() * 3)
