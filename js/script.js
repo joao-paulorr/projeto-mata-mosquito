@@ -18,7 +18,7 @@ function posicaoRandomica() {
     }
 
     if (vidas > 3) {
-        alert('Interromper o jogo')
+        
     } else {
         document.querySelector('#v' + vidas).src = 'img/coracao_vazio.png'
         vidas++
