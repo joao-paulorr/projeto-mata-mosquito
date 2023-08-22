@@ -18,7 +18,7 @@ var cronometro = setInterval(function () {
         clearInterval(criarMosquito)
         window.location.href = 'vitoria.html'
     } else {
-        document.querySelector('.cronometro').innerHTML = tempo
+        document.querySelector('#cronometro').innerHTML = tempo
     }
 }, 1000)
 
