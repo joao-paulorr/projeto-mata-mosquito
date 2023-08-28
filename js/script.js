@@ -76,7 +76,7 @@ function posicaoRandomica() {
 // vai fazer algo automaticamente a cada periodo de tempo determinado
 var criarMosquito = setInterval(function () {
     posicaoRandomica()
-}, 3000)
+}, criaMosquitoTempo)
 
 function tamanhoAleatorio() {
     var classe = Math.floor(Math.random() * 3)
